@@ -10,9 +10,9 @@ const About = () => {
             <div className='md:w-1/2'>
                <img src={about} alt='web dev ' />
             </div>
-            <div className='md:w-1/2 flex flex-col md:justify-center '>
+            <div className='md:w-1/2 flex flex-col md:justify-center items-center '>
                <h1 className='text-2xl font-bold text-gray-400'>Who I am?</h1>
-               <div className='px-8'>
+               <div className='pr-8'>
                <p className='w-96'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 Dicta non corrupti rerum esse. 
                 Eligendi tempora tempore, saepe numquam eos maiores?</p>
