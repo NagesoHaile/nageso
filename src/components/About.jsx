@@ -50,11 +50,10 @@ const About = () => {
                        <h4 className='text-gray-700 font-bold'>2019-2023</h4>
                   </div>
                </div>
-               
-              
             </div>
         </div>
         </div>
+        
     </section>
   )
 }
