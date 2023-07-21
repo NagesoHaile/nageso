@@ -13,10 +13,9 @@ const About = () => {
             <div className='md:w-1/2 flex flex-col md:justify-center items-center '>
                <h1 className='text-2xl font-bold text-gray-400'>Who I am?</h1>
                
-               <p className='w-96'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+               <p className='w-96 mx-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 Dicta non corrupti rerum esse. 
                 Eligendi tempora tempore, saepe numquam eos maiores?</p>
-              
             </div>
         </div>
     </section>
