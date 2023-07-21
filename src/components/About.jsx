@@ -28,7 +28,7 @@ const About = () => {
             <div className='md:w-1/2'>
                <img src={education} alt='web dev ' />
             </div>
-            <div className='md:w-1/2 flex flex-col space-y-6 justify-center items-center '>
+            <div className='md:w-1/2 flex flex-col space-y-6 justify-center items-center px-6 '>
               
                <div className='bg-green-200 w-96 h-36 rounded-lg shadow-lg flex items-center px-4'>
                    <div className='border-r-2 pr-2 border-green-500'>
