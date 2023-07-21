@@ -11,7 +11,7 @@ const Hero = () => {
                  <div className=' flex flex-col md:w-1/2 space-y-6 items-center justify-center'>
                       <div className='flex flex-col space-y-2 px-8 justify-center items-center md:items-start '>
                         <h1 className='text-4xl md:text-6xl font-bold text-gray-800'>Nageso Haile</h1>
-                        <h3 className='text-2xl font-bold text-gray-600'>Software Developer</h3>
+                        <h3 className=' font-bold italic text-gray-600'>Software Developer</h3>
                         <p className='text-gray-500 w-96 px-4 md:px-0'>
                             Welcome to my digital realm! I'm a passionate software developer, dedicated to crafting elegant and efficient solutions. With a love for innovation and a keen eye for detail, I strive to create seamless user experiences and bring ideas to life through code. Let's embark on a journey to build something extraordinary together.
                         </p>
