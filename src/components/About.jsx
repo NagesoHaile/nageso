@@ -2,7 +2,7 @@ import React from 'react'
 import about from '../assets/aboutme.svg'
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='overflow-x-hidden'>
         <div>
              <h1 className='text-3xl font-bold text-center'>About Me</h1>
         </div>
