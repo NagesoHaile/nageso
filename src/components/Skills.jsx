@@ -22,7 +22,7 @@ const Skills = () => {
          <div className='px-16 py-8'> 
            
           <div className=' flex space-x-4 justify-center items-center '>
-          <div className='absolute w-full  transform -translate-y-1/2 flex justify-between items-center'>
+          <div className='absolute w-full  px-8 transform -translate-y-1/2 flex justify-between items-center'>
                   <IoIosArrowBack size={40} />
                   <IoIosArrowForward size={40} />
            </div>
