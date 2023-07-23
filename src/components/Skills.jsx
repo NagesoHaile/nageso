@@ -75,12 +75,12 @@ const Skills = () => {
                     <h1 className='text-gray-950 text-3xl '>Services</h1>
                 </div>
                 <div className='flex flex-col space-y-4 md:border-r-2 md:pr-8 border-gray-900'>
-                    <BsCodeSquare size={30} className=''/>
+                    <BsCodeSquare size={30} className='text-yellow-700'/>
                     <h1 className='text-2xl font-bold'>Web development</h1>
                     <p className='text-gray-700'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                 </div>
                 <div className='flex flex-col space-y-4'>
-                    <AiOutlineAppstore size={30} />
+                    <AiOutlineAppstore className='text-orange-500' size={30} />
                     <h1 className='text-2xl font-bold'>Mobile App Development</h1>
                     <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
