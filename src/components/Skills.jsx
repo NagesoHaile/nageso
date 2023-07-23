@@ -26,45 +26,45 @@ const Skills = () => {
           <div className=' grid grid-cols-2 md:grid-cols-5 gap-16 space-x-4 justify-center items-center '>
           
           
-            <div className=' flex flex-col space-y-2 w-32 h-32 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className=' flex flex-col space-y-1 w-32 h-32 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={reactlogo} alt='Reactjs' />
                 <h2 className='text-xl font-bold'>ReactJs</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={javascript} alt='javascript' />
                 <h2 className='text-xl font-bold'>Javascript</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={html} alt='html' />
                 <h2 className='text-xl font-bold'>HTML</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={css} alt='css' />
                 <h2 className='text-xl font-bold'>CSS</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={python} alt='python' />
                 <h2 className='text-xl font-bold'>Python</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow- hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow- hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={django} alt='django' />
                 <h2 className='text-xl font-bold'>Django</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={flutter} alt='flutter' />
                 <h2 className='text-xl font-bold'>Flutter</h2>
             </div>
             
             
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={reactnative} alt='react-native' />
                 <h2 className='text-xl font-bold'>React Native</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={tailwind} alt='tailwindcss' />
                 <h2 className='text-xl font-bold'>Tailwindcss</h2>
             </div>
-            <div className='flex flex-col w-32 h-32 space-y-2 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center'>
+            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={bootsrap} alt='bootstrap' />
                 <h2 className='text-xl font-bold'>Bootstrap</h2>
             </div>
