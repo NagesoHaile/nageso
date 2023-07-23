@@ -15,9 +15,11 @@ const About = () => {
             <div className='md:w-1/2 flex flex-col md:justify-center items-center '>
                <h1 className='text-2xl font-bold text-gray-400'>Who I am?</h1>
                
-               <p className='w-96 mx-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Dicta non corrupti rerum esse. 
-                Eligendi tempora tempore, saepe numquam eos maiores?</p>
+               <p className='w-96 mx-4'>
+                  My Name is Nageso. I'm Software Developer.
+                  I'm a soon-to-be graduate from Arbaminch University, Ethiopia, pursuing a Bachelor's in Computer Science. Passionate about technology and programming, I thrive on solving complex problems. Whether it's building applications or optimizing algorithms, I constantly seek opportunities to learn and grow. Software development is my creative outlet to shape the future of technology. Join me in this exciting adventure, as together, through the power of code, we can make a positive impact.
+                </p>
+               
             </div>
         </div>
         <div>
@@ -30,7 +32,7 @@ const About = () => {
             </div>
             <div className='md:w-1/2 flex flex-col space-y-6 justify-center items-center px-6 '>
               
-               <div className='bg-green-200 w-96 h-36 rounded-lg shadow-lg flex items-center px-4'>
+               <div className='bg-green-200 w-96 h-36 rounded-lg shadow-lg flex items-center px-4 hover:bg-green-300'>
                    <div className='border-r-2 pr-2 border-green-500'>
                       <FaUserGraduate size={30}/>
                    </div>
@@ -40,7 +42,7 @@ const About = () => {
                        <h4 className='text-gray-700 font-bold'>2015-2018</h4>
                   </div>
                </div>
-               <div className='bg-green-200 w-96 h-36 rounded-lg shadow-lg flex items-center px-4'>
+               <div className='bg-green-200 w-96 h-36 rounded-lg shadow-lg flex items-center px-4  hover:bg-green-300'>
                  <div className='border-r-2 pr-2 border-green-500'>
                    <FaUserGraduate size={30}/>
                  </div>

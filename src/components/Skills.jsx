@@ -69,6 +69,7 @@ const Skills = () => {
                 <h2 className='text-xl font-bold'>Bootstrap</h2>
             </div>
           </div>
+         <div className='bg-gray-700'>
           <div className='flex  flex-col md:flex-row space-x-8 space-y-8 bg-green-200 w-full md:h-72 rounded-lg mr-8 items-center justify-between pr-8 pt-8 md:pt-0 mt-20'>
                 <div className=' flex flex-col w-72 md:w-72 h-52 md:h-60 -left-0 bg-white rounded-r-full justify-center items-center'>
                     <h1 className='text-gray-400 text-3xl '>Top</h1>
@@ -85,6 +86,7 @@ const Skills = () => {
                     <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
           </div>
+          </div> 
         </div>
     </section>
   )
