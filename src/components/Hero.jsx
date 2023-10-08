@@ -2,11 +2,13 @@ import React from 'react'
 import {BsLinkedin,BsTelegram,BsFacebook,BsTwitter,BsInstagram,BsGithub, BsGit} from 'react-icons/bs';
 import {MdOutlineArrowForwardIos} from  'react-icons/md'
 import webdev from '../assets/webdev.svg'
+import nageso from '../assets/nageso.jpg';
+
 const Hero = () => {
   return (
      <section id='home' className='overflow-x-hidden'>
             {/* flex container */}
-            <div className='flex flex-col-reverse md:flex-row py-6 space-y-0  '>
+            <div className='flex flex-col-reverse md:flex-row py-6 space-y-0 bg-primary '>
                 {/* left container */}
                  <div className=' flex flex-col md:w-1/2 space-y-6 items-center justify-center'>
                       <div className='flex flex-col space-y-2 px-8 justify-center items-center md:items-start '>
@@ -44,8 +46,9 @@ const Hero = () => {
                            <a className='hover:text-green-300 cursor-pointer hover:scale-110 transition-smooth duration-400' href='github'><BsGithub size={20} /></a>
                         
                  </div>
-                    <img className='h-1/2 md:h-screen' src={webdev} alt='web developer image' />
-                    
+                   <div>
+                    <img className='h-1/2 md:h-screen rounded-lg border-2 rounded-l-full rounded-e-full' src={nageso} alt='web developer image' />
+                    </div>
                  </div>
                 
             </div>

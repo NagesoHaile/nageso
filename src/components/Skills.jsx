@@ -78,12 +78,12 @@ const Skills = () => {
                 <div className='flex flex-col space-y-4 md:border-r-2 md:pr-8 border-gray-900'>
                     <BsCodeSquare size={30} className='text-yellow-700'/>
                     <h1 className='text-2xl font-bold'>Web development</h1>
-                    <p className='text-gray-700'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    <p className='text-gray-700'>I can develop beautiful and attractive website with the latest technologies for your businesses, organizations and personal use based on your requirements. </p>
                 </div>
                 <div className='flex flex-col space-y-4'>
                     <AiOutlineAppstore className='text-orange-500' size={30} />
                     <h1 className='text-2xl font-bold'>Mobile App Development</h1>
-                    <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className='text-gray-700'>I can provide you a beautiful and interactive mobile application for your work automation,and efficiency as per your requirements.</p>
                 </div>
           </div>
           </div> 
