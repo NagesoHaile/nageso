@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import reactlogo from '../assets/react.png';
 import javascript from '../assets/javascript.png'
 import bootsrap from '../assets/bootstrap-framework-logo.png'
@@ -10,12 +10,17 @@ import html from '../assets/html.png'
 import django from '../assets/django.svg'
 import reactnative from '../assets/react-native-logo.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {BsCodeSquare} from 'react-icons/bs'
 import {AiOutlineAppstore} from 'react-icons/ai'
 
 
 const Skills = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000});
+       })
   return (
     <section id="skills" className='overflow-x-hidden'>
           <div className='py-8'>
@@ -23,7 +28,7 @@ const Skills = () => {
           </div>
          <div className='px-16 py-8'> 
            
-          <div className=' grid grid-cols-2 md:grid-cols-5 gap-16 space-x-4 justify-center items-center '>
+          <div data-aos="zoom-in" className=' grid grid-cols-2 md:grid-cols-5 gap-16 space-x-4 justify-center items-center '>
           
           
             <div className=' flex flex-col space-y-1 w-32 h-32 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
@@ -56,10 +61,7 @@ const Skills = () => {
             </div>
             
             
-            <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
-                <img className="" src={reactnative} alt='react-native' />
-                <h2 className='text-xl font-bold'>React Native</h2>
-            </div>
+            
             <div className='flex flex-col w-32 h-32 space-y-1 rounded-2xl shadow-lg hover:scale-110 duration-500 bg-gray-100 justify-center items-center py-20'>
                 <img className="" src={tailwind} alt='tailwindcss' />
                 <h2 className='text-xl font-bold'>Tailwindcss</h2>
@@ -75,12 +77,12 @@ const Skills = () => {
                     <h1 className='text-gray-400 text-3xl '>Top</h1>
                     <h1 className='text-gray-950 text-3xl '>Services</h1>
                 </div>
-                <div className='flex flex-col space-y-4 md:border-r-2 md:pr-8 border-gray-900'>
+                <div data-aos="zoom-in" className='flex flex-col space-y-4 md:border-r-2 md:pr-8 border-gray-900'>
                     <BsCodeSquare size={30} className='text-yellow-700'/>
                     <h1 className='text-2xl font-bold'>Web development</h1>
                     <p className='text-gray-700'>I can develop beautiful and attractive website with the latest technologies for your businesses, organizations and personal use based on your requirements. </p>
                 </div>
-                <div className='flex flex-col space-y-4'>
+                <div data-aos="zoom-in" className='flex flex-col space-y-4'>
                     <AiOutlineAppstore className='text-orange-500' size={30} />
                     <h1 className='text-2xl font-bold'>Mobile App Development</h1>
                     <p className='text-gray-700'>I can provide you a beautiful and interactive mobile application for your work automation,and efficiency as per your requirements.</p>

@@ -3,7 +3,7 @@ import {CgClose,CgMenu} from 'react-icons/cg'
 const Navbar = () => {
     const [mobileMenuOpen,setmobileMenuOpen] = useState(false);
   return (
-    <nav className="fixed w-full  bg-gray-100 py-3 px-6 top-0 z-20 shadow-lg">
+    <nav className="fixed w-full  bg-primary py-3 px-6 top-0 z-20 shadow-lg">
          {/* flex container */}
          <div className="flex justify-around items-center ">
             <div className="">

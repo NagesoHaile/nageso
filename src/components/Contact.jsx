@@ -1,27 +1,32 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {AiOutlineMail,AiOutlinePhone} from 'react-icons/ai'
 import {CiLocationOn} from 'react-icons/ci';
-import {HiOutlineMail} from 'react-icons/hi'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Contact = () => {
+   useEffect(()=>{
+      AOS.init({duration:2000});
+     })
   return (
     <section id='contact' className='overflow-x-hidden bg-gray-800'>
          <div className='flex flex-col md:flex-row p-16 space-y-8 items-center'>
                 
             <div className='flex flex-col space-y-8 md:w-1/2'>
                 <h1 className='text-3xl text-gray-300 font-bold mb-8'>Contacts</h1>
-                 <div className='flex space-x-6 items-center'>
+                 <div className='flex space-x-6 items-center' data-aos="fade-right">
                     <div className='p-2 rounded-full bg-gray-500 hover:bg-gray-300'>
                        <AiOutlinePhone size={30} className=' ' />
                     </div>
                     <a className='text-gray-300' href='+251974890490'>+251974890490</a>
                  </div>
-                 <div className='flex space-x-6 items-center'>
+                 <div className='flex space-x-6 items-center' data-aos="fade-right">
                     <div className='p-2 rounded-full bg-gray-500 hover:bg-gray-300'>
                        <AiOutlineMail size={30} className=' ' />
                     </div>
                     <a className='text-gray-300' href='nagesohaile23@gmail.com'>nagesohaile23@gmail.com</a>
                  </div>
-                 <div className='flex space-x-6 items-center'>
+                 <div className='flex space-x-6 items-center' data-aos="fade-right">
                     <div className='p-2 rounded-full bg-gray-500 hover:bg-gray-300'>
                        <CiLocationOn size={30} className=' ' />
                     </div>
