@@ -34,15 +34,15 @@ const Hero = () => {
                         
 
                       <div className='py-8 px-4 md:px-0 flex w-96'>
-                        <a data-aos="fade-out" className='py-2 px-4 rounded-lg bg-green-600 font-bold inline-flex items-center space-x-2 justify-center text-gray-300 '>Let's Talk <MdOutlineArrowForwardIos className="text-gray-300" /></a>
+                        <a href='#contact' data-aos="fade-out" className='py-2 px-4 rounded-lg bg-green-600 font-bold inline-flex items-center space-x-2 justify-center text-gray-300 '>Contact me<MdOutlineArrowForwardIos className="text-gray-300" /></a>
                         
                       </div>
                      </div>
                      
                  </div>
                  {/* right container */}
-                 <div className=' md:w-1/2 pt-20'>
-                 <div className='fixed flex flex-col l-0 t-30   md:hidden space-y-3  bg-gray-200 px-3 py-5 rounded-md'>
+                 <div className=' md:w-1/2 pt-20 '>
+                 <div className='fixed flex flex-col l-0 t-30 z-20  md:hidden space-y-3  bg-gray-200 px-3 py-5 rounded-md'>
                            {/* side social links */}
                            <a href='https://www.linkedin.com/in/nageso-haile/'  className='hover:text-green-300 cursor-pointer hover:scale-110 transition-smooth duration-400'  target='_blank'><BsLinkedin size={20} /></a>
                            <a href='https://t.me/Nagesohaile' className='hover:text-green-300 cursor-pointer hover:scale-110 transition-smooth duration-400' target='_blank' ><BsTelegram size={20} /></a>
@@ -51,7 +51,7 @@ const Hero = () => {
                         
                  </div>
                    <div data-aos="zoom-in">
-                    <img className='h-1/2 md:h-screen rounded-lg border-2 rounded-l-full rounded-e-full' src={nageso} alt='web developer image' />
+                    <img className='h-1/2 md:h-screen rounded-full z-10 text-center border-2  md:rounded-e-full' src={nageso} alt='web developer image' />
                     </div>
                  </div>
                 
