@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
             {/* Nav links */}
             <div className="hidden md:flex space-x-6 ">
-                <a className="text-green-400 hover:text-green-300 cursor-pointer ">Home</a>
+                <a className="hover:text-green-300 cursor-pointer ">Home</a>
                 <a className="hover:text-green-300 cursor-pointer ">About me</a>
                 <a className="hover:text-green-300 cursor-pointer ">Resume</a>
             </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
          </div>
          {/* mobile menu */}
          <div className={`absolute flex flex-col space-y-4 h-screen bg-gray-200 px-6 pt-20 z-30 w-2/3 md:hidden top-0 smooth-transition duration-500 items-center justify-center   ${mobileMenuOpen? 'left-0':'-left-full'}`}>
-                <a href='#home' className="text-green-400 hover:text-green-300 cursor-pointer ">Home</a>
+                <a href='#home' className=" hover:text-green-300 cursor-pointer ">Home</a>
                 <a href='#about' className="hover:text-green-300 cursor-pointer ">About me</a>
                 <a href='#contact' className="hover:text-green-300 cursor-pointer ">Contact me</a>
          </div>
